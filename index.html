@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,200;0,500;0,600;0,700;0,800;1,100;1,300;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+  </head>
+  <body>
+    <!-- start settings box -->
+    <div id="settings" class="settings">
+      <div id="rotate-settings" class="rotate-settings">
+        <i class="fa fa-gear fa-spin"></i>
+      </div>
+      <div class="settings-container">
+        <div class="color-setting">
+          <h4>chnage color</h4>
+          <ul class="color-list">
+            <li class="active" data-color="#00cac7"></li>
+            <li data-color="#c6f100"></li>
+            <li data-color="#ff2f55"></li>
+            <li data-color="#5c008f"></li>
+          </ul>
+        </div>
+        <div class="background-settings">
+          <h4>background</h4>
+          <div id="buttons-contianer">
+            <span class="yes active" data-background="yes">yes</span>
+            <span class="no" data-background="no">no</span>
+          </div>
+        </div>
+        <div
+          id="background-settings bullets"
+          class="background-settings bullets"
+        >
+          <h4>bullets</h4>
+          <div id="buttons-contianer bullets">
+            <span class="yes active" data-bullets="yes">yes</span>
+            <span class="no" data-bullets="no">no</span>
+          </div>
+        </div>
+        <div class="reset">reset</div>
+      </div>
+    </div>
+    <!-- end settings box -->
+    <!--start landing -->
+    <div id="landing" class="landing-section">
+      <div class="overlay"></div>
+      <div class="header">
+        <div class="logo">PAGE LOGO</div>
+        <ul id="nav" class="nav">
+          <li class=""><a data-section=".about-us" href="">about us</a></li>
+          <li><a data-section=".our-skills" href="" class="">our skills</a></li>
+          <li><a data-section=".galary" href="">gallary</a></li>
+          <li><a data-section=".timeline" href="">timeline</a></li>
+        </ul>
+        <div id="icon" class="icons">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="intro-text">
+        <h1>here is all <span>creativity</span> you want</h1>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+          Exercitationem culpa vero illo dolore praesentium asperiores pariatur
+          voluptate hic? Iste, laborum.
+        </p>
+      </div>
+    </div>
+    <!--end landing -->
+    <!-- start about us -->
+    <div class="about-us">
+      <div class="about-text">
+        <h3>About Us</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
+          nam cupiditate nostrum possimus. Magni beatae dicta ad id ipsum
+          cupiditate totam earum dolores quibusdam molestias, animi odit tenetur
+          veritatis deleniti. Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Vero iste sint totam eligendi necessitatibus quod
+          eveniet consequuntur, placeat optio, sit dolorum quos sed consequatur
+          odio aperiam voluptas blanditiis voluptate! Aspernatur.
+        </p>
+      </div>
+      <div class="image"><img src="images/19362653.jpg" alt="" /></div>
+    </div>
+    <!-- end about us -->
+    <!-- our skills -->
+    <div class="our-skills">
+      <h3>our skills</h3>
+      <div class="content">
+        <div class="skill one">
+          <p>html</p>
+          <div data-progress="90%"><span data-progress="90%"></span></div>
+        </div>
+        <div class="skill two">
+          <p>css</p>
+          <div data-progress="80%"><span data-progress="80%"></span></div>
+        </div>
+        <div class="skill three">
+          <p>js</p>
+          <div data-progress="67%"><span data-progress="67%"></span></div>
+        </div>
+      </div>
+    </div>
+    <!-- our skills -->
+    <!-- our galary -->
+    <div class="galary">
+      <div class="content">
+        <h3>our galary</h3>
+        <div class="image-box">
+          <img src="images/landing4.jpg" alt="one" />
+          <img src="images/landing1.jpg" alt="two" />
+          <img src="images/landing2.jpg" alt="three" />
+          <img src="images/landing3.jpg" alt="four" />
+          <img src="images/landing4.jpg" alt="five" />
+          <img src="images/landing2.jpg" alt="six" />
+          <img src="images/landing1.jpg" alt="seven" />
+          <img src="images/landing2.jpg" alt="eight" />
+          <img src="images/landing3.jpg" alt="nine" />
+          <img src="images/landing4.jpg" alt="ten" />
+        </div>
+      </div>
+    </div>
+    <!-- our galary -->
+    <!-- time line -->
+    <div class="time-line">
+      <div class="contnet">
+        <div class="time-line-content">
+          <div class="year">2020</div>
+          <div class="left">
+            <div class="left-content">
+              <h3>testing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus soluta labore veniam aliquid error, similique id,
+                itaque illum quod repellendus debitis nulla recusandae magni
+                consequuntur perferendis non expedita illo voluptatibus.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="left-content">
+              <h3>testing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus soluta labore veniam aliquid error, similique id,
+                itaque illum quod repellendus debitis nulla recusandae magni
+                consequuntur perferendis non expedita illo voluptatibus.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2021</div>
+
+          <div class="left">
+            <div class="left-content">
+              <h3>testing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus soluta labore veniam aliquid error, similique id,
+                itaque illum quod repellendus debitis nulla recusandae magni
+                consequuntur perferendis non expedita illo voluptatibus.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="left-content">
+              <h3>testing</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Necessitatibus soluta labore veniam aliquid error, similique id,
+                itaque illum quod repellendus debitis nulla recusandae magni
+                consequuntur perferendis non expedita illo voluptatibus.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- time line -->
+    <!-- feturs -->
+    <div class="featurs">
+      <h3>features</h3>
+      <div class="content">
+        <div class="box">
+          <img src="images/swinging.png" alt="" />
+          <h2>heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            voluptatum hic est nulla, eos animi voluptatibus corrupti doloribus
+          </p>
+        </div>
+        <div class="box">
+          <img class="image" src="images/clumsy.png" alt="" />
+          <h2>heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            voluptatum hic est nulla, eos animi voluptatibus corrupti doloribus
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/coffee.png" alt="" />
+          <h2>heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            voluptatum hic est nulla, eos animi voluptatibus corrupti doloribus
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/float.png" alt="" />
+          <h2>heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            voluptatum hic est nulla, eos animi voluptatibus corrupti doloribus
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/groovy.png" alt="" />
+          <h2>heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            voluptatum hic est nulla, eos animi voluptatibus corrupti doloribus
+          </p>
+        </div>
+        <div class="box">
+          <img src="images/swinging.png" alt="" />
+          <h2>heading</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum,
+            voluptatum hic est nulla, eos animi voluptatibus corrupti doloribus
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- feturs -->
+    <!-- testiminios -->
+    <div class="testimonial">
+      <div class="content">
+        <h2>testimonial</h2>
+        <div class="box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+            facilis impedit provident sunt assumenda optio velit porro
+          </p>
+          <div class="box-info">
+            <img src="images/batman.png" alt="" />
+            <h3>sayed rady</h3>
+            <p>software engineer</p>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+            facilis impedit provident sunt assumenda optio velit porro
+          </p>
+          <div class="box-info">
+            <img src="images/robot-01.png" alt="" />
+            <h3>sayed rady</h3>
+            <p>software engineer</p>
+          </div>
+        </div>
+        <div class="box">
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe
+            facilis impedit provident sunt assumenda optio velit porro
+          </p>
+          <div class="box-info">
+            <img src="images/trinity.png" alt="" />
+            <h3>sayed rady</h3>
+            <p>software engineer</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testiminios -->
+    <div class="mover">
+      <div class="cir" data-section=".about-us">
+        <span class="mover-txt">about us</span>
+      </div>
+      <div class="cir" data-section=".our-skills">
+        <span class="mover-txt">our skills</span>
+      </div>
+      <div class="cir" data-section=".galary">
+        <span class="mover-txt">gallary</span>
+      </div>
+      <div class="cir" data-section=".time-line">
+        <span class="mover-txt">time line</span>
+      </div>
+    </div>
+    <div class="contact">
+      <div class="overlay"></div>
+      <h2>contact us</h2>
+
+      <div class="content">
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="your name" name="name" />
+            <input type="number" placeholder="your phone" name="phone" />
+            <input type="email" placeholder="your email" name="email" />
+            <input type="text" placeholder="your subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea
+              name="message"
+              id=""
+              cols="30"
+              rows="7"
+              placeholder="your message"
+            ></textarea>
+            <input type="submit" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <script src="js/master.js"></script>
+  </body>
+</html>
